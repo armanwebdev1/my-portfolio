@@ -10,19 +10,19 @@ export const Footer = () => {
         <ul className="footer__list">
           <li>
             <a href="#about" className="footer__link">
-              About
+              درباره من
             </a>
           </li>
 
           <li>
             <a href="#portfolio" className="footer__link">
-              Projects
+              پروژه‌ها
             </a>
           </li>
 
           <li>
             <a href="#contact" className="footer__link">
-              Contact
+              تماس با من
             </a>
           </li>
         </ul>

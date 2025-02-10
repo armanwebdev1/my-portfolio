@@ -7,8 +7,8 @@ import Info from "./info";
 export default function About() {
   return (
     <section className="about section" id="about">
-      <h2 className="section__title">About Me</h2>
-      <span className="section__subtitle">My Introduction</span>
+      <h2 className="section__title">درباره من</h2>
+      <span className="section__subtitle">معرفی</span>
 
       <div className="about__container container grid">
         <img src={AboutImg} alt="" className="about__img" />
@@ -17,15 +17,14 @@ export default function About() {
           <Info />
 
           <p className="about__description">
-            Web developer with a strong foundation in front-end technologies. I
-            thrive on solving complex problems and creating intuitive,
-            user-friendly web applications. My goal is to continuously learn and
-            grow, staying up-to-date with the latest industry trends and
-            technologies.
+            توسعه‌دهنده وب با پایه‌ای قوی در فناوری‌های فرانت‌اند. من در حل
+            مشکلات پیچیده و ایجاد برنامه‌های وب کاربرپسند و شهودی تخصص دارم. هدف
+            من یادگیری مداوم و رشد است تا همواره با آخرین روندها و فناوری‌های
+            صنعت به‌روز بمانم.
           </p>
 
           <a download="" href={CV} className="button button--flex">
-            Download CV
+            دانلود رزومه
             <svg
               className="button__icon"
               xmlns="http://www.w3.org/2000/svg"

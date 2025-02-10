@@ -44,6 +44,7 @@
 .contact__card-data {
   display: block;
   margin-bottom: var(--mb-0-75);
+  direction: ltr;
 }
 
 .contact__button {
@@ -52,7 +53,6 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  column-gap: 0.25rem;
 }
 
 .contact__button-icon {
@@ -61,7 +61,7 @@
 }
 
 .contact__button:hover .contact__button-icon {
-  transform: translate(0.25rem);
+  transform: translate(-0.25rem);
 }
 
 .contact__form {
@@ -92,7 +92,7 @@
 .contact__form-tag {
   position: absolute;
   top: -0.75rem;
-  left: 1.25rem;
+  right: 1.25rem;
   font-size: var(--smaller-font-size);
   padding: 0.25rem;
   background-color: var(--body-color);

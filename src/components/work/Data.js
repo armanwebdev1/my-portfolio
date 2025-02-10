@@ -5,8 +5,24 @@ import Work4 from "../../assets/Work4.jpg";
 import Work5 from "../../assets/Work5.jpg";
 import Work6 from "../../assets/Work6.jpg";
 import Work7 from "../../assets/Work7.jpg";
+import Work8 from "../../assets/Work8.png";
+import Work9 from "../../assets/Work9.png";
 
 export const projectsData = [
+  {
+    id: 8,
+    image: Work8,
+    title: "پروژه مارکت‌پلیس رسادنت",
+    category: "web",
+    link: "https://rasadent.netlify.app",
+  },
+  {
+    id: 9,
+    image: Work9,
+    title: "سایت فروشگاهی مشابه جانبی",
+    category: "web",
+    link: "https://arman-janebi.netlify.app",
+  },
   {
     id: 1,
     image: Work1,

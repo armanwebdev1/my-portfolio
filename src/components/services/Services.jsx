@@ -9,21 +9,21 @@ export default function Services() {
 
   return (
     <section className="services section" id="services">
-      <h2 className="section__title">Services</h2>
-      <span className="section__subtitle">What I offer</span>
+      <h2 className="section__title">خدمات</h2>
+      <span className="section__subtitle">خدماتی که ارائه میدهم</span>
 
       <div className="services__container container grid">
         <div className="services__content">
           <div>
             <i className="uil uil-web-grid services__icon"></i>
             <h3 className="services__title">
-              Dynamic web <br /> experience
+              تجربه وب <br /> پویا
             </h3>
           </div>
 
           <span className="services__button" onClick={() => toggleTab(1)}>
-            View More{" "}
-            <i className="uil uil-arrow-right services__button-icon"></i>
+            بیشتر بدانید
+            <i className="uil uil-arrow-left services__button-icon"></i>
           </span>
 
           <div
@@ -39,45 +39,45 @@ export default function Services() {
                 className="uil uil-times services__modal-close"
               ></i>
 
-              <h3 className="services__modal-title">Dynamic web experience</h3>
+              <h3 className="services__modal-title">تجربه وب پویا</h3>
               <p className="services__modal-description">
-                Services with more than 2 years of experience. Providing quality
-                work to clients and companies.
+                خدمات با بیش از 1 سال تجربه. ارائه کار با کیفیت به مشتریان و
+                شرکت‌ها
               </p>
 
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Interactive interfaces for modern users.
+                    رابط‌های تعاملی برای کاربران مدرن.
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Seamless user engagement.
+                    تعامل بی‌وقفه با کاربران
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Responsive designs for all devices.
+                    طراحی‌های مناسب برای تمامی دستگاه‌ها.
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Enhanced user interactivity.
+                    تعامل خیلی خوب با کاربران.
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Real-time data integration.
+                    یکپارچه‌سازی داده‌ها بدون درنگ.
                   </p>
                 </li>
               </ul>
@@ -89,13 +89,13 @@ export default function Services() {
           <div>
             <i className="uil uil-arrow services__icon"></i>
             <h3 className="services__title">
-              Elevate <br /> web presence
+              افزایش <br /> حضور در وب
             </h3>
           </div>
 
           <span onClick={() => toggleTab(2)} className="services__button">
-            View More{" "}
-            <i className="uil uil-arrow-right services__button-icon"></i>
+            بیشتر بدانید
+            <i className="uil uil-arrow-left services__button-icon"></i>
           </span>
 
           <div
@@ -111,45 +111,43 @@ export default function Services() {
                 className="uil uil-times services__modal-close"
               ></i>
 
-              <h3 className="services__modal-title">Elevate web presence</h3>
+              <h3 className="services__modal-title">افزایش حضور در وب</h3>
               <p className="services__modal-description">
-                Services with more than 2 years of experience. Providing quality
-                work to clients and companies.
+                خدمات با بیش از 1 سال تجربه. ارائه کار با کیفیت به مشتریان و
+                شرکت‌ها.
               </p>
 
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Boosting your online visibility.
+                    افزایش بازدید آنلاین شما.
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Optimized performance and speed.
+                    بهینه‌سازی عملکرد و سرعت.
+                  </p>
+                </li>
+
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">توسعه سازگار با SEO.</p>
+                </li>
+
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">
+                    راه‌حل‌های سفارشی برای نیازهای خاص.
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    SEO-friendly development.
-                  </p>
-                </li>
-
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    Custom solutions for unique needs.
-                  </p>
-                </li>
-
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    Transforming your digital footprint
+                    تغییر و تحول در ردپای دیجیتال شما.
                   </p>
                 </li>
               </ul>
@@ -161,13 +159,13 @@ export default function Services() {
           <div>
             <i className="uil uil-edit services__icon"></i>
             <h3 className="services__title">
-              Front-end <br /> services
+              خدمات <br /> فرانت اند
             </h3>
           </div>
 
           <span onClick={() => toggleTab(3)} className="services__button">
-            View More{" "}
-            <i className="uil uil-arrow-right services__button-icon"></i>
+            بیشتر بدانید
+            <i className="uil uil-arrow-left services__button-icon"></i>
           </span>
 
           <div
@@ -183,45 +181,38 @@ export default function Services() {
                 className="uil uil-times services__modal-close"
               ></i>
 
-              <h3 className="services__modal-title">Front-end services</h3>
+              <h3 className="services__modal-title">خدمات فرانت اند</h3>
               <p className="services__modal-description">
-                Services with more than 2 years of experience. Providing quality
-                work to clients and companies.
+                خدمات با بیش از 1 سال تجربه. ارائه کار با کیفیت به مشتریان و
+                شرکت‌ها
               </p>
 
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Cutting-edge frontend technologies.
+                    فناوری‌های پیشرفته فرانت‌اند.
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Pixel-perfect UI/UX design.
+                    طراحی UI/UX پیشرفته و دقیق.
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Cross-browser compatibility.
+                    سازگاری با تمام مرورگر‌ها.
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Scalable and maintainable code.
-                  </p>
-                </li>
-
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    Tailored frontend solutions
+                    راه‌حل‌های مناسب فرانت اند.
                   </p>
                 </li>
               </ul>

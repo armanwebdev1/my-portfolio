@@ -4,7 +4,7 @@ export default function () {
   return (
     <div className="home__data">
       <h1 className="home__title">
-        Arman Ahmadpour
+        آرمان احمدپور
         <svg
           width="36"
           height="36"
@@ -55,13 +55,13 @@ export default function () {
           ></path>
         </svg>
       </h1>
-      <h3 className="home__subtitle">Front-End Developer</h3>
+      <h3 className="home__subtitle">توسعه‌دهنده فرانت اند</h3>
       <p className="home__description">
-        I'm Arman, a passionate front-end developer. I behold a love for
-        crafting beautiful and user-friendly websites.
+        من آرمان هستم، یک توسعه‌دهنده‌ی مشتاق فرانت‌اند. عاشق طراحی وب‌سایت‌های
+        زیبا و کاربرپسند هستم.
       </p>
       <a href="#contact" className="button button--flex">
-        Say Hello
+        پیام بدهید
         <svg
           className="button__icon"
           xmlns="http://www.w3.org/2000/svg"
